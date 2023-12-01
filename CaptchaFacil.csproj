@@ -1,14 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-  <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>
+      netstandard2.1;
+      net6.0;
+      net7.0;
+      net472;
+      net48
+    </TargetFrameworks>
   <PackageId>CaptchaFacil</PackageId>
-  <Version>1.0.0</Version>
+  <Version>1.1.0</Version>
   <Authors>JacksonFigueiredo</Authors>
   <Company>Particular</Company>
   <Description>Package to Easyly generate Captcha</Description>
   <PackageTags>N/A</PackageTags>
-  <PackageReadmeFile>Readme.md</PackageReadmeFile>
+  <AssemblyVersion>1.1.0.0</AssemblyVersion>
+  <FileVersion>1.1.0.0</FileVersion>
   </PropertyGroup>
 
 
@@ -16,14 +23,6 @@
     <PackageReference Include="System.Drawing.Common" Version="8.0.0" />
   </ItemGroup>
 
-
-<ItemGroup>
-  <None Update="Readme.md">
-    <Pack>true</Pack>
-    <PackagePath>/</PackagePath>
-    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-  </None>
-</ItemGroup>
 
 
 </Project>
