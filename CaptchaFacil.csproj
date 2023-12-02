@@ -12,7 +12,7 @@
   <Version>1.2.0</Version>
   <Authors>JacksonFigueiredo</Authors>
   <Company>Particular</Company>
-  <Description>Package to Easyly generate Captcha</Description>
+  <Description>Easily generate captcha to improve security</Description>
   <PackageTags>N/A</PackageTags>
   <AssemblyVersion>1.2.0.0</AssemblyVersion>
   <FileVersion>1.2.0.0</FileVersion>
